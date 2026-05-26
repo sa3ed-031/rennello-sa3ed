@@ -10,7 +10,7 @@ export default function Hero() {
           اعثر على الخبير المناسب لمنزلك
         </h1>
 
-        <p className="text-balance text-sm text-gray-200">
+        <p className="text-balance text-sm text-gray-400">
           تواصل مع نجارين وسباكين وكهربائيين وغيرهم من ذوي الخبرة الموثوق بهم
           ببضعة نقرات
         </p>
