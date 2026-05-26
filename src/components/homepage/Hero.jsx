@@ -10,11 +10,7 @@ export default function Hero() {
           اعثر على الخبير المناسب لمنزلك
         </h1>
 
-<<<<<<< HEAD
         <p className="text-balance text-sm text-gray-300">
-=======
-        <p className="text-balance text-sm text-gray-400">
->>>>>>> u-dashboard
           تواصل مع نجارين وسباكين وكهربائيين وغيرهم من ذوي الخبرة الموثوق بهم
           ببضعة نقرات
         </p>
