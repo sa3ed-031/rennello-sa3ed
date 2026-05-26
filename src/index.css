@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* ================== Fonts files ================== */
+@font-face {
+    font-family: "ArbFontF3";
+    src: url("/assets/fonts/ArbFONTS-4_F3.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ArbFontF4";
+    src: url("/assets/fonts/ArbFONTS-4_F4.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ArbFontF5";
+    src: url("/assets/fonts/ArbFONTS-4_F5.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ArbFontBR";
+    src: url("/assets/fonts/ArbFONTS-BR.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ArbFontRBLight";
+    src: url("/assets/fonts/ArbFONTS-RB-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ArbFontRiyadBold";
+    src: url("/assets/fonts/ArbFONTS-riyad-bank-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ArbFontRiyadLight";
+    src: url("/assets/fonts/ArbFONTS-riyad-bank-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ArbFontRiyadRegular";
+    src: url("/assets/fonts/ArbFONTS-riyad-bank-Regular.ttf") format("truetype");
+}
+
+/* ================== Tailwind theme ================== */
+@theme {
+    --color-primary: #39E079;
+    --color-secondary: #F3F4F6;
+    --color-secondary-font: #7E8591;
+    --color-primary-black-font: #000000;
+    --color-primary-white-font: #FFFFFF;
+
+    --font-arb-f3: "ArbFontF3", sans-serif;
+    --font-arb-f4: "ArbFontF4", sans-serif;
+    --font-arb-f5: "ArbFontF5", sans-serif;
+    --font-arb-br: "ArbFontBR", sans-serif;
+    --font-arb-rb-light: "ArbFontRBLight", sans-serif;
+    --font-arb-riyad-bold: "ArbFontRiyadBold", sans-serif;
+    --font-arb-riyad-light: "ArbFontRiyadLight", sans-serif;
+    --font-arb-riyad-regular: "ArbFontRiyadRegular", sans-serif;
+
+    --shadow-soft: 0 4px 14px rgba(0, 0, 0, 0.1);
+    --shadow-strong: 0 10px 25px rgba(0, 0, 0, 0.25);
+
+    --background-image-hero: url('/assets/images/homepage-hero.png');
+
+}
+
+body {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    font-family: "ArbFontBR", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #39E079;
+    border-radius: 0.25rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
